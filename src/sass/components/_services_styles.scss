@@ -1,0 +1,67 @@
+.services_container{
+    margin-top: 6em;
+}
+
+.services__title_col{
+    margin-bottom: 3em;
+}
+
+
+.services__title{
+font-family: PlayfairDisplaySC;
+ font-size: calc(10px + 50 * (100vw / 1920));
+line-height: 1.2;
+font-weight: 700;
+text-transform: uppercase;
+color: #b4b4b4;
+
+text-align: center;
+}
+
+
+.services_link{
+
+    padding-right: 10px;
+
+    font-family: Ubuntu;
+
+font-size: calc(6px + 24 * (100vw / 1920));
+line-height: 2em;
+font-weight: 300;
+text-transform: uppercase;
+color: #b4b4b4;
+transition: color 1000ms cubic-bezier(.17,.67,.83,.67),
+font-size 300ms cubic-bezier(.17,.67,.83,.67) ;
+
+&:hover{
+    font-size: calc(4px + 44 * (100vw / 1920));
+    color: #b69b67 ;
+
+}
+}
+
+.services__presentacion{
+    position: relative;
+}
+.services__description_block{
+    position: absolute;
+    top: 0.6em;
+    left: 0.6em;
+}
+
+.services_description{
+font-family: Ubuntu;
+ font-size: calc(6px + 14 * (100vw / 1920));
+line-height: 1.2;
+font-weight: 300;
+color: #b4b4b4;
+}
+.description_link{
+    color: #b69b67;
+    
+    transition: color 500ms cubic-bezier(.17,.67,.83,.67) ;
+    &:hover{
+        text-decoration: underline;
+        color: olivedrab;
+    }
+}

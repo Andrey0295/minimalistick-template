@@ -2,9 +2,10 @@
  * Главный файл стилей.
  * Все паршалы подключаются сюда.
  */
+ @import './utils/utils_styles';
 
 // Стили для файла с примером HTML-фрагмента
 // @import './example';
-@import './utils/utils_styles';
 @import './components/header_styles' ;
+@import './components/services_styles' ;
 // @import './components/about-us-section';
