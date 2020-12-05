@@ -5,7 +5,7 @@
  */
 body {
   background-color: #303030;
-  min-width: 420px;
+  min-width: 320px;
 }
 
 ul {
@@ -117,7 +117,7 @@ a:hover {
 }
 
 .services_link:hover {
-  font-size: calc(4px + 44 * (100vw / 1920));
+  font-size: calc(4px + 38 * (100vw / 1920));
   color: #b69b67;
 }
 

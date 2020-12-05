@@ -34,7 +34,7 @@ transition: color 1000ms cubic-bezier(.17,.67,.83,.67),
 font-size 300ms cubic-bezier(.17,.67,.83,.67) ;
 
 &:hover{
-    font-size: calc(4px + 44 * (100vw / 1920));
+    font-size: calc(4px + 38 * (100vw / 1920));
     color: #b69b67 ;
 
 }
