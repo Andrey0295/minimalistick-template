@@ -5,7 +5,7 @@
  */
 body {
   background-color: #303030;
-  min-width: 320px;
+  min-width: 480px;
 }
 
 ul {
@@ -148,5 +148,132 @@ a:hover {
 .description_link:hover {
   text-decoration: underline;
   color: olivedrab;
+}
+
+.portfolio__container {
+  margin-top: 6em;
+}
+
+.title-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.portfolio_title {
+  font-family: PlayfairDisplaySC;
+  font-size: calc(10px + 50 * (100vw / 1920));
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #b4b4b4;
+  text-align: center;
+}
+
+.portfolio_link {
+  font-family: Ubuntu;
+  font-size: calc(2px + 14 * (100vw / 1920));
+  line-height: 1.2;
+  font-weight: 300;
+  color: #b4b4b4;
+  border: 0.01em solid #b4b4b4;
+  padding: 0.5em;
+  margin-bottom: 3em;
+}
+
+.portfolio_link img {
+  width: 1em;
+}
+
+.portfolio_card {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-bottom: 30px;
+}
+
+.portfolio_card img {
+  opacity: 0.5;
+}
+
+.subscribe_block {
+  padding: 0;
+  background-color: #b69b67;
+  position: absolute;
+  height: 100%;
+}
+
+.portfolio__subscribe_title {
+  position: relative;
+  font-family: Ubuntu;
+  font-size: calc(2px + 22 * (100vw / 1920));
+  line-height: 1.2em;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #303030;
+  text-align: left;
+}
+
+.portfolio__subscribe_title:after {
+  content: '';
+  display: block;
+  width: 120%;
+  height: 1px;
+  background-color: #303030;
+  position: absolute;
+  bottom: -0.5em;
+  left: -3.5em;
+}
+
+.portfolio_text {
+  margin-bottom: 0px;
+  font-family: Ubuntu;
+  font-size: calc(2px + 14 * (100vw / 1920));
+  line-height: 1.5em;
+  font-weight: 500;
+  color: #303030;
+  text-align: start;
+}
+
+.signature_card {
+  margin-top: 2em;
+  font-family: Ubuntu;
+  font-size: calc(2px + 10 * (100vw / 1920));
+  line-height: 1.5em;
+  font-weight: 300;
+  color: #303030;
+  font-style: italic;
+  text-align: end;
+}
+
+.feet__cont_row {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.feetback {
+  width: 100%;
+  height: 300px;
+  outline: 2px solid red;
+}
+
+.contact_us {
+  width: 100%;
+  height: 300px;
+  outline: 2px solid tomato;
 }
 /*# sourceMappingURL=main.css.map */
