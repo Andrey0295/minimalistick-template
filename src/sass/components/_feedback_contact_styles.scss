@@ -6,27 +6,26 @@
 
 .feetback{
     width: 100%;
-    // height: 300px;
-    outline: 2px solid red;
+   
 }
 
 .feedback__title{
-margin-bottom: 3em;
+    margin-bottom: 3em;
 
     font-family: PlayfairDisplaySC;
     font-size: calc(10px + 50 * (100vw / 1920));
-line-height: 1.2;
-font-weight: 700;
-text-transform: uppercase;
-color: #b4b4b4;
-
-text-align: center;
+     line-height: 1.2;
+     font-weight: 700;
+     text-transform: uppercase;
+     color: #b4b4b4;
+     
+     text-align: center;
 }
 
 .block__feedback{
      display: flex;
 
-    // padding-top: 3em;
+    
 }
 
 .feedback_image img{
@@ -72,7 +71,69 @@ border-bottom: 1px solid #b69b67;
 }
 
 .contact_us{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: end;
+
     width: 100%;
-    // height: 300px;
-    outline: 2px solid tomato;
+  
+
+
+}
+
+.contact__form{
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.form-field {
+    
+    input{
+        width: 100%;
+        height: 3em;
+        background-color: #303030;
+        border: 1px solid #b4b4b4;
+
+        
+          font-family: Ubuntu;
+          font-size: calc(2px + 24 * (100vw / 1920));
+          line-height: 1.2;
+          font-weight: 300;
+          color: #454545;
+
+    }
+    textarea{
+        width: 100%;
+        background-color: #303030;
+        border: 1px solid #b4b4b4;
+
+        font-family: Ubuntu;
+        font-size: calc(2px + 24 * (100vw / 1920));
+        line-height: 1.2;
+        font-weight: 300;
+        color: #454545;
+    }
+ 
+}
+
+.contact__button_block{
+    width: 50%;
+
+    .contact_button{
+        width: 100%;
+        height: 2em;
+    
+        background-color: #b69b67;
+        
+         font-family: Ubuntu;
+         font-size: calc(2px + 24 * (100vw / 1920));
+         line-height: 1.2;
+         font-weight: 300;
+         text-transform: uppercase;
+         color: #303030;
+
+         border: 1px solid #b69b67;
+         border-radius: 0.4em;
+    }
 }
